@@ -13,6 +13,7 @@
 		8BA0EBF32878CCBF0067165C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0EBF12878CCBF0067165C /* Main.storyboard */; };
 		8BA0EBF52878CCC90067165C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0EBF42878CCC90067165C /* Assets.xcassets */; };
 		8BA0EBF82878CCC90067165C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0EBF62878CCC90067165C /* LaunchScreen.storyboard */; };
+		8BA0EC04287B55EB0067165C /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0EC03287B55EB0067165C /* Animation.swift */; };
 		9836DC00CE593A7CBD09F1D5 /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410B23F376424BC1220BCCB0 /* Pods_AnimationApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		8BA0EBF42878CCC90067165C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA0EBF72878CCC90067165C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA0EBF92878CCC90067165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA0EC03287B55EB0067165C /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				681C3448469E377C3AA58EA3 /* Pods-AnimationApp.debug.xcconfig */,
 				10FA7A37BF5A16B238AE32D0 /* Pods-AnimationApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,6 +76,7 @@
 			children = (
 				8BA0EBFF2878CE9C0067165C /* ViewControllers */,
 				8BA0EC002878CEB70067165C /* StoryBoards */,
+				8BA0EC05287B55F20067165C /* Models */,
 				8BA0EC012878CF200067165C /* Resources */,
 				8BA0EC022878CF360067165C /* Support */,
 			);
@@ -114,6 +116,14 @@
 				8BA0EBF92878CCC90067165C /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		8BA0EC05287B55F20067165C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BA0EC03287B55EB0067165C /* Animation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CC97247D7FF2ED7D4ACB07BA /* Frameworks */ = {
@@ -241,6 +251,7 @@
 			files = (
 				8BA0EBF02878CCBF0067165C /* ViewController.swift in Sources */,
 				8BA0EBEC2878CCBF0067165C /* AppDelegate.swift in Sources */,
+				8BA0EC04287B55EB0067165C /* Animation.swift in Sources */,
 				8BA0EBEE2878CCBF0067165C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
