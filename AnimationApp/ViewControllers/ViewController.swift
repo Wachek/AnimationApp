@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var animationView: UIView!
+    @IBOutlet var animationLabel: UILabel!
+    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//    }
+
+
+    @IBAction func animationButtonPressed(_ sender: UIButton) {
     }
-
-
+    
 }
 
